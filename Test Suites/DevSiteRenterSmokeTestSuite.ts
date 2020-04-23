@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
-   <name>DevSite_TestSuite</name>
+   <description>This is the smoke test suite for dev site.</description>
+   <name>DevSiteRenterSmokeTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,17 +9,17 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>d55f4343-eeb4-4e52-b08d-bc8f3a2097aa</testSuiteGuid>
+   <testSuiteGuid>3ef976e1-b811-432c-84f6-5e7da705df74</testSuiteGuid>
    <testCaseLink>
-      <guid>f66c3f26-afab-4ae5-8324-55b08f412a24</guid>
+      <guid>0ae6118c-3f14-4f74-8d4e-93b8da272b46</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/VisitDevSite</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c7966393-0600-4d0d-812c-0828660df31f</guid>
+      <guid>6952a99d-475d-48de-af05-35eeaaeb68b6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CheckHeaderLinks</testCaseId>
+      <testCaseId>Test Cases/RenterLogin</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

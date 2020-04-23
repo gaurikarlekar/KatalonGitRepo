@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://user:iway@123@dev1.ished.com/')
-
+WebUI.navigateToUrl(GlobalVariable.devURL)
 WebUI.closeBrowser()
+
+

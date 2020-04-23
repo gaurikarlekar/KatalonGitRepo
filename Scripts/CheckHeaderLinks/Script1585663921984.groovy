@@ -16,17 +16,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
+WebUI.navigateToUrl(GlobalVariable.devURL)
 
-WebUI.navigateToUrl('https://user:iway%40123@dev1.ished.com/')
-
-WebUI.click(findTestObject('HomePage_MenuLinks/a_Partner With Us'))
-
-WebUI.click(findTestObject('HomePage_MenuLinks/a_Learn More'))
-
-WebUI.click(findTestObject('HomePage_MenuLinks/div_Learn More_inner-box learnmore'))
-
-WebUI.click(findTestObject('HomePage_MenuLinks/a_Login'))
-
-WebUI.click(findTestObject('HomePage_MenuLinks/a_Register'))
+WebUI.click(findTestObject('Home Page_Menu Links/a_Partner With Us'))
+WebUI.click(findTestObject('Home Page_Menu Links/a_Learn More'))
+WebUI.click(findTestObject('Home Page_Menu Links/div_Learn More_inner-box learnmore'))
+WebUI.click(findTestObject('Home Page_Menu Links/a_Login'))
+WebUI.click(findTestObject('Home Page_Menu Links/a_Register'))
 
 WebUI.closeBrowser()

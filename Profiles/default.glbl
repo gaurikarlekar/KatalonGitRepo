@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://user:iway@123@dev1.ished.com/'</initValue>
+      <name>devURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
